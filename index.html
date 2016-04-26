@@ -16,7 +16,7 @@ layout: default
     <div class="container-fluid">
         
         <div class="col-sm-6 col-sm-offset-6 col-md-4 col-md-offset-8 form">
-            <h3><svg class="icon icon-envelope-o"><use xlink:href="#icon-envelope-o"></use></svg>Make an Appointment</h3>
+            <h3><svg class="icon icon-envelope-o"><use xlink:href="#icon-envelope-o"></use></svg>Entre em contato</h3>
             <form action="https://getsimpleform.com/messages?form_api_token={{ site.api_token }}" method="post">
                 <div class="form-field">
                     <input name="name" type="text" placeholder="Name" required>
@@ -42,36 +42,19 @@ layout: default
 <div class="three-shade-col">
     <div class="col-sm-4">
         <svg class="icon icon-envelope-o"><use xlink:href="#icon-envelope-o"></use></svg>
-        <h3>Contact Us</h3>
+        <h3>Entre em contato</h3>
         <ul>
-            {% if site.contact.phone %}<li><strong>Phone:</strong> {{ site.contact.phone }}</li>{% endif %}
-            {% if site.contact.emergency %}<li><strong>Emergency:</strong> {{ site.contact.emergency }}</li>{% endif %}
-            {% if site.contact.email %}<li><strong>Email:</strong> {{ site.contact.email }}</li>{% endif %}
+            {% if site.contact.phone %}<li><strong>Celular:</strong> {{ site.contact.phone }}</li>{% endif %}            
+            {% if site.contact.email %}<li><strong>E-mail:</strong> {{ site.contact.email }}</li>{% endif %}
         </ul>
     </div>
     <div class="col-sm-4">
         <svg class="icon icon-clock-o"><use xlink:href="#icon-clock-o"></use></svg>
-        <h3>Opening Hours</h3>
-        <table>
-            <tbody>
-                <tr>
-                    <td>Monday – Friday</td>
-                    <td>{{ site.monday_friday }}</td>
-                </tr>
-                <tr>
-                    <td>Saturday</td>
-                    <td>{{ site.saturday }}</td>
-                </tr>
-                <tr>
-                    <td>Sunday</td>
-                    <td>{{ site.sunday }}</td>
-                </tr>
-            </tbody>
-        </table>
+        <h3>Aberto todos os dias</h3>
     </div>
     <div class="col-sm-4">
         <svg class="icon icon-map-marker"><use xlink:href="#icon-map-marker"></use></svg>
-        <h3>Location</h3>
+        <h3>Localização</h3>
             <p>
                 {{ site.contact.address }}
             </p>
@@ -82,32 +65,51 @@ layout: default
 <!-- Start About -->
 <div id="about" class="about">
     <div class="container-fluid">
-        <h2 class="section-title">About Us</h2>
+        <h2 class="section-title">Sobre a i9life</h2>
 
         <div class="row">
             <div class="col-sm-6">
-                <h3>Welcome to DentistSmile</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis nostrum ab vero temporibus magnam, delectus!</p>
+                <h3>A Empresa</h3>
+                <br />
+                <p>
+                        A i9life é uma empresa 100% brasileira e faz parte de um grupo que está há mais de 20 anos no mercado, a I9 Bussines. Nossa atuação está voltada para área de perfumaria e nutraceuticos. 
 
+                </p>
+                <p>
+                        Além de produtos acessíveis e de fácil aceitação de mercado temos um plano de carreira super agressivo! A pontuação no plano binário é acumulativo o que nos permite os benefícios de conquistar os prêmios oferecidos pela empresa, a única questão será: Quando? Pois você vai chegar lá! É apenas questão de tempo!
+                </p>
+                <p>
+                        Após a compra de qualquer um dos kits oferecidos pela empresa você compra cada perfume por 49 reais e vende por 98 reais. 100% de lucro.
+
+                </p>
+                        Se você vender apenas 1 perfume por dia , no final do mês você terá um lucro de 1.470 reais.
+                    </p>
+                <p>
+                        A i9life tem mudado a vida de milhares de pessoas no Brasil e será um prazer também ter você nessa família que a cada dia cresce mais.
+                </p>
+                <br />
                 <div class="media">
                     <div class="media-left">
                         <div class="boxed-icon">
-                            <svg class="icon icon-heart"><use xlink:href="#icon-heart"></use></svg>
+                            <svg class="icon icon-heart"><use xlink:href="#icon-star"></use></svg>
                         </div>
                     </div>
                     <div class="media-body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam explicabo unde doloremque quo, fugit, nisi.</p>
+                        <p> Entre os nossos produtos podemos destacar nossos perfumes de 50 ml com uma embalagem única e atrativa sem falar na qualidade da essencia e fixação! 
+
+                        </p>
                     </div>
                 </div>
 
                 <div class="media">
                     <div class="media-left">
                         <div class="boxed-icon">
-                            <svg class="icon icon-medkit"><use xlink:href="#icon-medkit"></use></svg>
+                            <svg class="icon icon-medkit"><use xlink:href="#icon-star"></use></svg>
                         </div>
                     </div>
                     <div class="media-body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam explicabo unde doloremque quo, fugit, nisi.</p>
+                        <p>Ainda temos entre as novidades perfumes em aerosol de 100ml únicos no Brasil! 
+                        </p>
                     </div>
                 </div>
 
@@ -118,7 +120,7 @@ layout: default
                         </div>
                     </div>
                     <div class="media-body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam explicabo unde doloremque quo, fugit, nisi.</p>
+                        <p>Entre os nutraceuticos destacam: Goji ( cápsulas que absorvem a gordura do alimento), ômega 3, Detox tea( Cha que auxilia a diminuir a retenção de líquidos e celulite), shakes para controle de peso entre outros! DETALHE: todos com 100% de lucro!!</p>
                     </div>
                 </div>
             </div>
@@ -133,7 +135,7 @@ layout: default
 <!-- Start Treatments -->
 <div id="treatments" class="treatments">
     <div class="container-fluid">
-        <h2 class="section-title">Treatments</h2>
+        <h2 class="section-title">Bônus da i9life</h2>
 
         <div class="row">
             {% for treatment in site.data.treatments %}
@@ -152,7 +154,7 @@ layout: default
 
 <!-- Start Our team -->
 <div id="team" class="team"> 
-    <h2 class="section-title">Our Team</h2> 
+    <h2 class="section-title">Nossos Produtos</h2> 
     <div id="team-carousel">
     {% for member in site.data.team %}
         <div class="expandable-box">
@@ -173,48 +175,15 @@ layout: default
 <!-- End Our team -->
 
 <!-- Start Testimonials -->
-<div id="testimonials" class="testimonials parallax" style="background-image: url('{{ site.baseurl }}/img/{{ site.testimonials.testimonials_img }}');">
+<div id="cadastrar" class="testimonials parallax" style="background-image: url('{{ site.baseurl }}/img/{{ site.testimonials.testimonials_img }}');">
     <div class="overlay-container">
         <div class="overlay"></div>
         <div class="container-fluid">
             <div id="testimonial-carousel">
-                {% for testimonial in site.data.testimonials %}
-                    <div class="testimonial-item">
-                        <svg class="icon icon-quote-left"><use xlink:href="#icon-quote-left"></use></svg>
-                        <blockquote>
-                            <p>{{ testimonial.description }}</p>
-                            <footer>
-                                {{ testimonial.name }}
-                                <small>{{ testimonial.title }}</small>
-                            </footer>
-                        </blockquote>
-                    </div>
-                {% endfor %}
+                <iframe border="0" src="http://i9gestor.com.br/formi9/?r=NTczMTc=&origem=formi9Anderson.Apdo.de" style="border: solid 0 #FFF; width: 100%; height: 600px;"></iframe>
             </div>
         </div>
     </div>
 </div>
 <!-- End Testimonials -->
 
-<!-- Start Gallery -->
-<div id="gallery" class="gallery">
-        
-    <h2 class="section-title">Gallery</h2>
-
-    {% for images in site.data.gallery %}
-        <a href="{{ site.baseurl }}/img/gallery/large/{{ images.image_large }}" class="gallery-item expandable-box image-link">
-            <div class="expandable-box-top">
-                <img src="{{ site.baseurl }}/img/gallery/thumb/{{ images.image_thumb }}" alt="{{ images.image_alt }}">
-            </div>
-            <div class="expandable-box-bottom">
-                <span><svg class="icon icon-chain"><use xlink:href="#icon-chain"></use></svg></span>
-            </div>
-        </a>
-    {% endfor %}
-
-</div>
-<!-- End Gallery -->
-
-<!-- Start Map -->
-<div id="location" class="map" data-zoom="{{ site.map.zoom }}" data-address="{{ site.map.address }}" data-address-details="<img src='{{ site.map.address_details }}'>"></div>
-<!-- End Map -->

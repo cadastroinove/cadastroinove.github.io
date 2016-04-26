@@ -1,25 +1,23 @@
 # Site settings
-title: DentistSmile | Dental Jekyll Theme
-description: "A responsive Jekyll theme for dental clinics."
+title: i9life | Revendedor Oficial
+description: "i9 sua vida, realize seus sonhos."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the name of your domain
-logo_url: svg/min/logo.svg
 
 # Hero
 hero: 
     hero_img: hero.jpg
-    hero_title: DentistSmile
-    hero_description: A responsive Jekyll theme for dental clinics.
+    hero_title: i9Life | Revendedor Oficial
+    hero_description: i9 sua vida, realize seus sonhos, seja um revendedor.
 
 # Contact form
 api_token: # Enter API token here
 
 # Contact info
 contact:
-    phone: 932 50 540
-    emergency: 931 53 234
-    email: contact@yoursite.com
-    address: Von schroeders 273, <br> Viña del mar - Chile
+    phone: (44) 9882-5411
+    email: contato@andersonsouza.net
+    address: Colorado Paraná
 
 # Opening hours
 monday_friday: 9:00 – 18:00
@@ -33,7 +31,7 @@ testimonials:
 # Map
 map:
     zoom: 17
-    address: Von schroeders 273, Viña del mar, Chile
+    address: São Paulo, Brasil
     address_details: svg/min/logo.svg
 
 # Social settings
@@ -45,7 +43,7 @@ skype: skype:obaez_design?userinfo
 feed: yes
 
 # Footer
-copyright: © 2015 DentistSmile - All rights reserved
+copyright: © 2016 i9life | Revendedor Oficial
 
 # Build settings
 markdown: kramdown
