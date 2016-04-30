@@ -1,39 +1,35 @@
 - name: Aerosol Feminino
-  image: i9life-aerosol-feminino.jpg
+  image: i9life-aerosol-feminino.png
   email: email@gmail.com
   phone: 9659 43 21
 
 - name: Aerosol Masculino
-  image: i9life-aerosol-masculino.jpg
+  image: i9life-aerosol-masculino.png
   email: email@gmail.com
   phone: 9659 43 21
 
 - name: Hidratantes
-  image: hidratante-i9life.jpg
+  image: hidratante-i9life.png
   email: email@gmail.com
   phone: 9659 43 21
 
 - name: Shakes
-  image: shake-i9life.jpg
+  image: shake-i9life.png
   email: email@gmail.com
   phone: 9659 43 21
 
 - name: Nutrição Esportiva
-  image: nutricao-esportiva-i9life.jpg
+  image: nutricao-esportiva-i9life.png
   email: email@gmail.com
   phone: 9659 43 21
 
 - name: Nutracêuticos
-  image: nutraceuticos-i9life.jpg
+  image: nutraceuticos-i9life.png
   email: email@gmail.com
   phone: 9659 43 21
 
-- name: Linha Hair i9life
-  image: linha-hair-i9life.jpg
-  email: email@gmail.com
-  phone: 9659 43 21
 
 - name: Chás
-  image: chas-i9life.jpg
+  image: chas-i9life.png
   email: email@gmail.com
   phone: 9659 43 21  
